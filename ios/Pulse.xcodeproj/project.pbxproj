@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA000000000000000000003E /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000001 /* AppViewModel.swift */; };
+		FA000000000000000000003F /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000002 /* Format.swift */; };
+		FA0000000000000000000040 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000003 /* RootView.swift */; };
+		FA0000000000000000000041 /* LiveSignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000004 /* LiveSignalView.swift */; };
+		FA0000000000000000000042 /* CoreComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000005 /* CoreComponents.swift */; };
+		FA0000000000000000000043 /* PositioningAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000006 /* PositioningAnimationView.swift */; };
+		FA0000000000000000000044 /* ProcessingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000007 /* ProcessingAnimationView.swift */; };
+		FA0000000000000000000045 /* ResultCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000008 /* ResultCharts.swift */; };
+		FA0000000000000000000046 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000009 /* ShareSheet.swift */; };
+		FA0000000000000000000047 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000000A /* DesignSystem.swift */; };
+		FA0000000000000000000048 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000000B /* HistoryView.swift */; };
+		FA0000000000000000000049 /* MeasurementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000000C /* MeasurementDetailView.swift */; };
+		FA000000000000000000004A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000000D /* HomeView.swift */; };
+		FA000000000000000000004B /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000000E /* InformationView.swift */; };
+		FA000000000000000000004D /* MeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000010 /* MeasurementViewModel.swift */; };
+		FA000000000000000000004E /* MeasurementFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000011 /* MeasurementFlowView.swift */; };
+		FA000000000000000000004F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000012 /* ResultView.swift */; };
+		FA0000000000000000000051 /* BreathingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000014 /* BreathingMode.swift */; };
+		FA0000000000000000000052 /* Estimates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000015 /* Estimates.swift */; };
+		FA0000000000000000000053 /* MeasurementConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000016 /* MeasurementConfiguration.swift */; };
+		FA0000000000000000000054 /* MeasurementError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000017 /* MeasurementError.swift */; };
+		FA0000000000000000000055 /* MeasurementPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000018 /* MeasurementPhase.swift */; };
+		FA0000000000000000000056 /* MeasurementQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000019 /* MeasurementQuality.swift */; };
+		FA0000000000000000000057 /* MeasurementResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000001A /* MeasurementResult.swift */; };
+		FA0000000000000000000058 /* MeasurementSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000001B /* MeasurementSummary.swift */; };
+		FA0000000000000000000059 /* PositioningQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000001C /* PositioningQuality.swift */; };
+		FA000000000000000000005A /* RecordingMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000001D /* RecordingMetadata.swift */; };
+		FA000000000000000000005B /* SamplingDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000001E /* SamplingDiagnostics.swift */; };
+		FA000000000000000000005C /* AccelerometerCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000001F /* AccelerometerCSV.swift */; };
+		FA000000000000000000005D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000020 /* AppSettings.swift */; };
+		FA000000000000000000005E /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000021 /* DeviceInfo.swift */; };
+		FA000000000000000000005F /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000022 /* FeedbackManager.swift */; };
+		FA0000000000000000000061 /* MeasurementStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000024 /* MeasurementStore.swift */; };
+		FA0000000000000000000062 /* MotionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000025 /* MotionRecorder.swift */; };
+		FA0000000000000000000063 /* Autocorrelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000026 /* Autocorrelation.swift */; };
+		FA0000000000000000000064 /* ButterworthFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000027 /* ButterworthFilter.swift */; };
+		FA0000000000000000000065 /* CardiorespiratoryProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000028 /* CardiorespiratoryProcessor.swift */; };
+		FA0000000000000000000066 /* ComponentSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000029 /* ComponentSelector.swift */; };
+		FA0000000000000000000067 /* HeartRateEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000002A /* HeartRateEstimator.swift */; };
+		FA0000000000000000000068 /* RespiratoryRateEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000002B /* RespiratoryRateEstimator.swift */; };
+		FA0000000000000000000069 /* SamplingAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000002C /* SamplingAnalyzer.swift */; };
+		FA000000000000000000006A /* SignalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000002D /* SignalPreprocessor.swift */; };
+		FA000000000000000000006B /* SignalProcessingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000002E /* SignalProcessingParameters.swift */; };
+		FA000000000000000000006C /* SignalQualityEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000000000000000000002F /* SignalQualityEvaluator.swift */; };
+		FA000000000000000000006D /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000030 /* Statistics.swift */; };
+		FA000000000000000000006E /* TemplateMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000031 /* TemplateMatcher.swift */; };
+		FA000000000000000000006F /* WelchPSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000032 /* WelchPSD.swift */; };
+		FA0000000000000000000070 /* PulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000033 /* PulseApp.swift */; };
+		FA0000000000000000000071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000034 /* Assets.xcassets */; };
+		FA0000000000000000000072 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000035 /* Localizable.xcstrings */; };
+		FA00000000000000000000E1 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000000E0 /* TrendsView.swift */; };
+		FA00000000000000000000E4 /* HeartRateReconciler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00000000000000000000E3 /* HeartRateReconciler.swift */; };
+		FB0000000000000000000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000011 /* HomeViewModel.swift */; };
+		FB0000000000000000000002 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000012 /* HistoryViewModel.swift */; };
+		FB0000000000000000000003 /* TrendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000013 /* TrendsViewModel.swift */; };
+		FB0000000000000000000004 /* InformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000014 /* InformationViewModel.swift */; };
+		FB0000000000000000000005 /* MeasurementDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000015 /* MeasurementDetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0000000000000000000001 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		FA0000000000000000000002 /* Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		FA0000000000000000000003 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FA0000000000000000000004 /* LiveSignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSignalView.swift; sourceTree = "<group>"; };
+		FA0000000000000000000005 /* CoreComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreComponents.swift; sourceTree = "<group>"; };
+		FA0000000000000000000006 /* PositioningAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositioningAnimationView.swift; sourceTree = "<group>"; };
+		FA0000000000000000000007 /* ProcessingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingAnimationView.swift; sourceTree = "<group>"; };
+		FA0000000000000000000008 /* ResultCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCharts.swift; sourceTree = "<group>"; };
+		FA0000000000000000000009 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		FA000000000000000000000A /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		FA000000000000000000000B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FA000000000000000000000C /* MeasurementDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementDetailView.swift; sourceTree = "<group>"; };
+		FA000000000000000000000D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA000000000000000000000E /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		FA0000000000000000000010 /* MeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewModel.swift; sourceTree = "<group>"; };
+		FA0000000000000000000011 /* MeasurementFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementFlowView.swift; sourceTree = "<group>"; };
+		FA0000000000000000000012 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		FA0000000000000000000014 /* BreathingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingMode.swift; sourceTree = "<group>"; };
+		FA0000000000000000000015 /* Estimates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estimates.swift; sourceTree = "<group>"; };
+		FA0000000000000000000016 /* MeasurementConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementConfiguration.swift; sourceTree = "<group>"; };
+		FA0000000000000000000017 /* MeasurementError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementError.swift; sourceTree = "<group>"; };
+		FA0000000000000000000018 /* MeasurementPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementPhase.swift; sourceTree = "<group>"; };
+		FA0000000000000000000019 /* MeasurementQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementQuality.swift; sourceTree = "<group>"; };
+		FA000000000000000000001A /* MeasurementResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementResult.swift; sourceTree = "<group>"; };
+		FA000000000000000000001B /* MeasurementSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementSummary.swift; sourceTree = "<group>"; };
+		FA000000000000000000001C /* PositioningQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositioningQuality.swift; sourceTree = "<group>"; };
+		FA000000000000000000001D /* RecordingMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingMetadata.swift; sourceTree = "<group>"; };
+		FA000000000000000000001E /* SamplingDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplingDiagnostics.swift; sourceTree = "<group>"; };
+		FA000000000000000000001F /* AccelerometerCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerCSV.swift; sourceTree = "<group>"; };
+		FA0000000000000000000020 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		FA0000000000000000000021 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		FA0000000000000000000022 /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		FA0000000000000000000024 /* MeasurementStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementStore.swift; sourceTree = "<group>"; };
+		FA0000000000000000000025 /* MotionRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionRecorder.swift; sourceTree = "<group>"; };
+		FA0000000000000000000026 /* Autocorrelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autocorrelation.swift; sourceTree = "<group>"; };
+		FA0000000000000000000027 /* ButterworthFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterworthFilter.swift; sourceTree = "<group>"; };
+		FA0000000000000000000028 /* CardiorespiratoryProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiorespiratoryProcessor.swift; sourceTree = "<group>"; };
+		FA0000000000000000000029 /* ComponentSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentSelector.swift; sourceTree = "<group>"; };
+		FA000000000000000000002A /* HeartRateEstimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateEstimator.swift; sourceTree = "<group>"; };
+		FA000000000000000000002B /* RespiratoryRateEstimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespiratoryRateEstimator.swift; sourceTree = "<group>"; };
+		FA000000000000000000002C /* SamplingAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplingAnalyzer.swift; sourceTree = "<group>"; };
+		FA000000000000000000002D /* SignalPreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalPreprocessor.swift; sourceTree = "<group>"; };
+		FA000000000000000000002E /* SignalProcessingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalProcessingParameters.swift; sourceTree = "<group>"; };
+		FA000000000000000000002F /* SignalQualityEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalQualityEvaluator.swift; sourceTree = "<group>"; };
+		FA0000000000000000000030 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		FA0000000000000000000031 /* TemplateMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMatcher.swift; sourceTree = "<group>"; };
+		FA0000000000000000000032 /* WelchPSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelchPSD.swift; sourceTree = "<group>"; };
+		FA0000000000000000000033 /* PulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseApp.swift; sourceTree = "<group>"; };
+		FA0000000000000000000034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0000000000000000000035 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		FA0000000000000000000036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA000000000000000000007D /* Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA00000000000000000000E0 /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		FA00000000000000000000E3 /* HeartRateReconciler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateReconciler.swift; sourceTree = "<group>"; };
+		FB0000000000000000000011 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FB0000000000000000000012 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		FB0000000000000000000013 /* TrendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsViewModel.swift; sourceTree = "<group>"; };
+		FB0000000000000000000014 /* InformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewModel.swift; sourceTree = "<group>"; };
+		FB0000000000000000000015 /* MeasurementDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementDetailViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0000000000000000000080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA000000000000000000008F = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000091 /* Pulse */,
+				FA0000000000000000000090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000007D /* Pulse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000091 /* Pulse */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000092 /* App */,
+				FA0000000000000000000095 /* Components */,
+				FA000000000000000000009B /* DesignSystem */,
+				FB0000000000000000000020 /* ViewModels */,
+				FA000000000000000000009C /* Features */,
+				FA00000000000000000000AC /* Models */,
+				FA00000000000000000000B8 /* Resources */,
+				FA00000000000000000000B9 /* Services */,
+				FA00000000000000000000C0 /* SignalProcessing */,
+				FA0000000000000000000034 /* Assets.xcassets */,
+				FA0000000000000000000036 /* Info.plist */,
+			);
+			path = Pulse;
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000092 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000001 /* AppViewModel.swift */,
+				FA0000000000000000000002 /* Format.swift */,
+				FA0000000000000000000003 /* RootView.swift */,
+				FA0000000000000000000033 /* PulseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA0000000000000000000095 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000004 /* LiveSignalView.swift */,
+				FA0000000000000000000005 /* CoreComponents.swift */,
+				FA0000000000000000000006 /* PositioningAnimationView.swift */,
+				FA0000000000000000000007 /* ProcessingAnimationView.swift */,
+				FA0000000000000000000008 /* ResultCharts.swift */,
+				FA0000000000000000000009 /* ShareSheet.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA000000000000000000009B /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000000A /* DesignSystem.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		FA000000000000000000009C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000009D /* History */,
+				FA00000000000000000000A1 /* Home */,
+				FA00000000000000000000A3 /* Information */,
+				FA00000000000000000000A5 /* Measurement */,
+				FA00000000000000000000E2 /* Trends */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FA000000000000000000009D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000000B /* HistoryView.swift */,
+				FA000000000000000000000C /* MeasurementDetailView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000000D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A3 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000000E /* InformationView.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A5 /* Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000011 /* MeasurementFlowView.swift */,
+				FA0000000000000000000012 /* ResultView.swift */,
+			);
+			path = Measurement;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000014 /* BreathingMode.swift */,
+				FA0000000000000000000015 /* Estimates.swift */,
+				FA0000000000000000000016 /* MeasurementConfiguration.swift */,
+				FA0000000000000000000017 /* MeasurementError.swift */,
+				FA0000000000000000000018 /* MeasurementPhase.swift */,
+				FA0000000000000000000019 /* MeasurementQuality.swift */,
+				FA000000000000000000001A /* MeasurementResult.swift */,
+				FA000000000000000000001B /* MeasurementSummary.swift */,
+				FA000000000000000000001C /* PositioningQuality.swift */,
+				FA000000000000000000001D /* RecordingMetadata.swift */,
+				FA000000000000000000001E /* SamplingDiagnostics.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000035 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA000000000000000000001F /* AccelerometerCSV.swift */,
+				FA0000000000000000000020 /* AppSettings.swift */,
+				FA0000000000000000000021 /* DeviceInfo.swift */,
+				FA0000000000000000000022 /* FeedbackManager.swift */,
+				FA0000000000000000000024 /* MeasurementStore.swift */,
+				FA0000000000000000000025 /* MotionRecorder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000C0 /* SignalProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				FA0000000000000000000026 /* Autocorrelation.swift */,
+				FA0000000000000000000027 /* ButterworthFilter.swift */,
+				FA0000000000000000000028 /* CardiorespiratoryProcessor.swift */,
+				FA0000000000000000000029 /* ComponentSelector.swift */,
+				FA000000000000000000002A /* HeartRateEstimator.swift */,
+				FA00000000000000000000E3 /* HeartRateReconciler.swift */,
+				FA000000000000000000002B /* RespiratoryRateEstimator.swift */,
+				FA000000000000000000002C /* SamplingAnalyzer.swift */,
+				FA000000000000000000002D /* SignalPreprocessor.swift */,
+				FA000000000000000000002E /* SignalProcessingParameters.swift */,
+				FA000000000000000000002F /* SignalQualityEvaluator.swift */,
+				FA0000000000000000000030 /* Statistics.swift */,
+				FA0000000000000000000031 /* TemplateMatcher.swift */,
+				FA0000000000000000000032 /* WelchPSD.swift */,
+			);
+			path = SignalProcessing;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000E2 /* Trends */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000000E0 /* TrendsView.swift */,
+			);
+			path = Trends;
+			sourceTree = "<group>";
+		};
+		FB0000000000000000000020 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FB0000000000000000000011 /* HomeViewModel.swift */,
+				FB0000000000000000000012 /* HistoryViewModel.swift */,
+				FB0000000000000000000013 /* TrendsViewModel.swift */,
+				FB0000000000000000000014 /* InformationViewModel.swift */,
+				FB0000000000000000000015 /* MeasurementDetailViewModel.swift */,
+				FA0000000000000000000010 /* MeasurementViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA000000000000000000007A /* Pulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0000000000000000000084 /* Build configuration list for PBXNativeTarget "Pulse" */;
+			buildPhases = (
+				FA000000000000000000007F /* Sources */,
+				FA0000000000000000000080 /* Frameworks */,
+				FA0000000000000000000081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulse;
+			productName = Pulse;
+			productReference = FA000000000000000000007D /* Pulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA000000000000000000007C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					FA000000000000000000007A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FA0000000000000000000086 /* Build configuration list for PBXProject "Pulse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = FA000000000000000000008F;
+			productRefGroup = FA0000000000000000000090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA000000000000000000007A /* Pulse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0000000000000000000081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0000000000000000000071 /* Assets.xcassets in Resources */,
+				FA0000000000000000000072 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA000000000000000000007F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA000000000000000000003E /* AppViewModel.swift in Sources */,
+				FA000000000000000000003F /* Format.swift in Sources */,
+				FA0000000000000000000040 /* RootView.swift in Sources */,
+				FA0000000000000000000041 /* LiveSignalView.swift in Sources */,
+				FA0000000000000000000042 /* CoreComponents.swift in Sources */,
+				FA0000000000000000000043 /* PositioningAnimationView.swift in Sources */,
+				FA0000000000000000000044 /* ProcessingAnimationView.swift in Sources */,
+				FA0000000000000000000045 /* ResultCharts.swift in Sources */,
+				FA0000000000000000000046 /* ShareSheet.swift in Sources */,
+				FA0000000000000000000047 /* DesignSystem.swift in Sources */,
+				FA0000000000000000000048 /* HistoryView.swift in Sources */,
+				FA0000000000000000000049 /* MeasurementDetailView.swift in Sources */,
+				FA000000000000000000004A /* HomeView.swift in Sources */,
+				FA000000000000000000004B /* InformationView.swift in Sources */,
+				FA000000000000000000004D /* MeasurementViewModel.swift in Sources */,
+				FA000000000000000000004E /* MeasurementFlowView.swift in Sources */,
+				FA000000000000000000004F /* ResultView.swift in Sources */,
+				FA0000000000000000000051 /* BreathingMode.swift in Sources */,
+				FA0000000000000000000052 /* Estimates.swift in Sources */,
+				FA0000000000000000000053 /* MeasurementConfiguration.swift in Sources */,
+				FA0000000000000000000054 /* MeasurementError.swift in Sources */,
+				FA0000000000000000000055 /* MeasurementPhase.swift in Sources */,
+				FA0000000000000000000056 /* MeasurementQuality.swift in Sources */,
+				FA0000000000000000000057 /* MeasurementResult.swift in Sources */,
+				FA0000000000000000000058 /* MeasurementSummary.swift in Sources */,
+				FA0000000000000000000059 /* PositioningQuality.swift in Sources */,
+				FA000000000000000000005A /* RecordingMetadata.swift in Sources */,
+				FA000000000000000000005B /* SamplingDiagnostics.swift in Sources */,
+				FA000000000000000000005C /* AccelerometerCSV.swift in Sources */,
+				FA000000000000000000005D /* AppSettings.swift in Sources */,
+				FA000000000000000000005E /* DeviceInfo.swift in Sources */,
+				FA000000000000000000005F /* FeedbackManager.swift in Sources */,
+				FA0000000000000000000061 /* MeasurementStore.swift in Sources */,
+				FA0000000000000000000062 /* MotionRecorder.swift in Sources */,
+				FA0000000000000000000063 /* Autocorrelation.swift in Sources */,
+				FA0000000000000000000064 /* ButterworthFilter.swift in Sources */,
+				FA0000000000000000000065 /* CardiorespiratoryProcessor.swift in Sources */,
+				FA0000000000000000000066 /* ComponentSelector.swift in Sources */,
+				FA0000000000000000000067 /* HeartRateEstimator.swift in Sources */,
+				FA00000000000000000000E4 /* HeartRateReconciler.swift in Sources */,
+				FA0000000000000000000068 /* RespiratoryRateEstimator.swift in Sources */,
+				FA0000000000000000000069 /* SamplingAnalyzer.swift in Sources */,
+				FA000000000000000000006A /* SignalPreprocessor.swift in Sources */,
+				FA000000000000000000006B /* SignalProcessingParameters.swift in Sources */,
+				FA000000000000000000006C /* SignalQualityEvaluator.swift in Sources */,
+				FA000000000000000000006D /* Statistics.swift in Sources */,
+				FA000000000000000000006E /* TemplateMatcher.swift in Sources */,
+				FA000000000000000000006F /* WelchPSD.swift in Sources */,
+				FA0000000000000000000070 /* PulseApp.swift in Sources */,
+				FA00000000000000000000E1 /* TrendsView.swift in Sources */,
+				FB0000000000000000000001 /* HomeViewModel.swift in Sources */,
+				FB0000000000000000000002 /* HistoryViewModel.swift in Sources */,
+				FB0000000000000000000003 /* TrendsViewModel.swift in Sources */,
+				FB0000000000000000000004 /* InformationViewModel.swift in Sources */,
+				FB0000000000000000000005 /* MeasurementDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA0000000000000000000087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Pulse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = it.enricodallastella.Pulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA0000000000000000000088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Pulse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = it.enricodallastella.Pulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FA000000000000000000008B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA000000000000000000008C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0000000000000000000084 /* Build configuration list for PBXNativeTarget "Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0000000000000000000087 /* Debug */,
+				FA0000000000000000000088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0000000000000000000086 /* Build configuration list for PBXProject "Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA000000000000000000008B /* Debug */,
+				FA000000000000000000008C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA000000000000000000007C /* Project object */;
+}
